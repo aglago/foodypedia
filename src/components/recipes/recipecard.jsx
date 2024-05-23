@@ -18,7 +18,7 @@ export default function Recipecard({image, time, status, name, description}) {
                     </div>
                 </div>
 
-                <h3 className="text-greyLike mb-0 items-center">{name}</h3>
+                <h3 className="text-greyLike mb-0 items-center line-clamp-1">{name}</h3>
 
                 <p className="text-[13px] text-gray-400 line-clamp-4">{description}</p>
 
